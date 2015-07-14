@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Front-end Jonas Pimentel - @jpfront - Fortaleza - Ceará">
+  <meta name="author" content="@jpfront">
+  <title>Front-end Jonas Pimentel - Fortaleza - Ceará</title>
+  <link rel="shortcut icon" href="">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,700italic,500italic,500,400italic,300italic,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="http://clovisdasilvaneto.github.io/all-animation/assets/css/all-animation.min.css">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="google-site-verification" content="72RHHsuD1SB3QeTJi73UbjiuXm1fOH5AlND3V3Et8ws" />
+  <meta property="og:url" content="http://jpfront.github.io/">
+  <meta property="og:title" content="Front-end Jonas Pimentel - @jpfront - Fortaleza - Ceará">
+  <meta property="og:site_name" content="Front-end Jonas Pimentel - @jpfront - Fortaleza - Ceará">
+  <meta property="og:description" content="Minha boa descrição para intrigar os usuários.">
+  <!--
+  <meta property="og:image" content="http://jpfront.github.io/profile.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="600">
+  -->
+  <meta property="og:type" content="website">
+  <!--[if IE]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse enter-down-bounce" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <img src="assets/menu.svg" alt="@jpfront - Jonas Pimentel" title="Jonas Pimentel">
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active" title="Sobre"><a href="#">About</a></li>
+
+        </ul>
+      </div>
+      <!--.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container enter-down-bounce">
+    <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3">
+      <div class="text-center">
+        <header>
+          <figure title="Minha foto bonitão." class="enter-down-bounce">
+            <img src="assets/profile.jpg" width="150" class="img-circle profile" alt="">
+          </figure>
+        </header>
+        <article>
+          <h1 title="Olá!">console.log("Hello World");</h1>
+
+          <hr>
+          <p title="Sobre mim" class="lead">My name is Jonas Pimentel, i'm front-end enginer, brazilian, student of computer systems, self-taught developer and passionate about web, music, coffee and javascript.</p>
+          <hr>
+          <p title="Especialidades" class="lead">
+            Front-end Enginer, Graphic Designer, Responsive, UX, Google Partners, Semantic Web, W3C, SEO, Usability First,
+            Illustrator, Photoshop and InDesign.
+          </p>
+          <hr>
+          <p title="Conhecimentos" class="lead">
+
+            NodeJs, Python, Java, Ruby, PHP, Javascript, jQuery, AngularJS, SASS, Stylus, Gulp, Bower, Jade and others.
+          </p>
+
+          <hr>
+        </article>
+        <footer>
+          <p class="lead">
+            <strong>recent projects in july of 2015</strong>
+            <br><a href="http://decolando.com.br" target="_blank">decolando.com.br</a> - <a href="http://sedona.com.br" target="_blank">sedona.com.br</a> - <a href="http://eloamodas.com.br" target="_blank">eloamodas.com.br</a>
+          </p>
+          <p>Twitter <a href="#">@jpfront</a> - Facebook <a href="https://www.facebook.com/jonas.pimentel.940" target="_blank">Jonas Pimentel</a></p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+<script>
+  $(".profile").mouseover(function(e) {
+    e.preventDefault();
+    $(".profile").addClass('dance');
+  });
+</script>
+
+</html>
